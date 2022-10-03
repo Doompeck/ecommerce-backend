@@ -7,6 +7,11 @@ router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
     // Category.findAll()
+    const categories = await Catergory.findAll ({
+      include: Product
+    });
+    
+    res.json(categories);
 });
 
 router.get('/:id', (req, res) => {

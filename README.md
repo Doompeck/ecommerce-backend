@@ -20,7 +20,9 @@ You will need to clone down the repo.  Then npm i the dependencies.  The you wil
 
 To run this you will need the backend routes for insomnia. I have included them as a json file you need to import into insomnia. Then you run node index.js and you have full access to the routes.
 
-  ## Contributing
+[E-Commerce Backend Demo](https://user-images.githubusercontent.com/104403183/203224409-52d92142-1171-4c3a-85a9-7ab65cecaad0.webm)
+
+ ## Contributing
 
  Benjamin Stanfield
 
